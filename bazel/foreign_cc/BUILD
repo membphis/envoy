@@ -47,6 +47,9 @@ configure_make(
     static_libraries = [
         "libluajit-5.1.a",
     ],
+    binaries = [
+        "luajit-2.1.0-beta3"
+    ],
 )
 
 envoy_cmake_external(
